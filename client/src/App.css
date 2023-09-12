@@ -1,0 +1,27 @@
+body {
+  max-width: 700px;
+  width: 60%;
+  margin: 30px auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 5px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 24px;
+  font-weight: bold;
+}
